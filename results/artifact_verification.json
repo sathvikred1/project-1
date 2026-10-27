@@ -1,0 +1,16 @@
+{
+  "main_runs": 162,
+  "aggregate_configurations": 54,
+  "recorded_checkpoints": 102006,
+  "recorded_gradient_events": 182282,
+  "source_hashes_match": true,
+  "summary_matches_raw_endpoints": true,
+  "means_and_sample_sd_match_independent_recalculation": true,
+  "paired_async_arrival_schedules_identical": true,
+  "quick_events_match_full_run_prefixes_exactly": true,
+  "png_figures": 12,
+  "vector_pdf_figures": 12,
+  "unit_tests_passed": 12,
+  "final_source_hashes_match": true,
+  "plot_regeneration_from_recorded_csv_passed": true
+}

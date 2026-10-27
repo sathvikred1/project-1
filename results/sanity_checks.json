@@ -1,0 +1,83 @@
+{
+  "algorithm_invariants_passed": true,
+  "runs_checked": 174,
+  "failures": [],
+  "reproducibility": [
+    {
+      "run_id": "sync_tauNone_b4_w4_low_s11",
+      "exact_match": true
+    },
+    {
+      "run_id": "async_tauNone_b4_w8_high_s11",
+      "exact_match": true
+    }
+  ],
+  "empirical_expectations": [
+    {
+      "check": "High vs low delay: mean_staleness, 4 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=2.9900; high=2.9689",
+      "status": "NOT_SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: max_staleness, 4 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=5.3333; high=30.6667",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: p95_staleness, 4 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=4.0000; high=8.2500",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: mean_staleness, 8 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=6.9765; high=6.9259",
+      "status": "NOT_SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: max_staleness, 8 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=11.6667; high=67.3333",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: p95_staleness, 8 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=9.0000; high=16.5333",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: mean_staleness, 16 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=14.9498; high=14.8726",
+      "status": "NOT_SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: max_staleness, 16 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=22.6667; high=164.3333",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "High vs low delay: p95_staleness, 16 workers",
+      "expected": "higher under high heterogeneity",
+      "observed": "low=18.0000; high=34.2167",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "Final training loss below initial loss",
+      "expected": "all runs",
+      "observed": "162/162 runs",
+      "status": "SUPPORTED"
+    },
+    {
+      "check": "Filtering is active",
+      "expected": "some runs discard gradients",
+      "observed": "76/81 runs discard",
+      "status": "SUPPORTED"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+check,expected,observed,status
+"High vs low delay: mean_staleness, 4 workers",higher under high heterogeneity,low=2.9900; high=2.9689,NOT_SUPPORTED
+"High vs low delay: max_staleness, 4 workers",higher under high heterogeneity,low=5.3333; high=30.6667,SUPPORTED
+"High vs low delay: p95_staleness, 4 workers",higher under high heterogeneity,low=4.0000; high=8.2500,SUPPORTED
+"High vs low delay: mean_staleness, 8 workers",higher under high heterogeneity,low=6.9765; high=6.9259,NOT_SUPPORTED
+"High vs low delay: max_staleness, 8 workers",higher under high heterogeneity,low=11.6667; high=67.3333,SUPPORTED
+"High vs low delay: p95_staleness, 8 workers",higher under high heterogeneity,low=9.0000; high=16.5333,SUPPORTED
+"High vs low delay: mean_staleness, 16 workers",higher under high heterogeneity,low=14.9498; high=14.8726,NOT_SUPPORTED
+"High vs low delay: max_staleness, 16 workers",higher under high heterogeneity,low=22.6667; high=164.3333,SUPPORTED
+"High vs low delay: p95_staleness, 16 workers",higher under high heterogeneity,low=18.0000; high=34.2167,SUPPORTED
+Final training loss below initial loss,all runs,162/162 runs,SUPPORTED
+Filtering is active,some runs discard gradients,76/81 runs discard,SUPPORTED
